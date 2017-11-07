@@ -4,7 +4,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.boton_atras {
 
+	position: fixed;
+    left: 17px;
+    top:10px;
+	z-index:10;
+	background: #F26F62;
+	color:#fff;
+	font-family: 'Fredoka One', normal;
+	font-size: .7em;
+	border-radius: 5px;
+	padding: 7px;
+	text-decoration: none;
+	
+}
+
+.boton_atras:hover {
+	background: #C0392B;
+	
+
+}
 .contenedor {
 	background: #ccc;
 	width: 90%;
@@ -167,6 +187,7 @@ aside .widget article {
 	border: 1px solid #000;
 	border-radius: 10px;
 	padding: 5px;
+
 }
 
 .información {
@@ -203,6 +224,8 @@ footer .links a{
 	text-decoration: none;
 	border-radius: 7px;
 	padding: 10px;
+	margin-left: 2px;
+	margin-bottom: 2px;
 	
 }
 footer .links a:hover {
