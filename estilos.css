@@ -22,7 +22,7 @@
 
 .boton_atras:hover {
 	background: #C0392B;
-	
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 
 }
 .contenedor {
@@ -123,6 +123,7 @@ header nav a {
 
 header nav a:hover {
 	background:#C0392B;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 .main h1 {
 	font-family: 'Fredoka One', normal;
@@ -231,7 +232,7 @@ footer .links a{
 footer .links a:hover {
 	
 	background:#c0392b;
-
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 footer .social {
 	display: flex;
@@ -252,6 +253,7 @@ footer .social a {
 footer .social img:hover {
 	
 	background:#c0392b;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
 footer .social img {
